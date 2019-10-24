@@ -1,0 +1,226 @@
+
+
+
+                  ##################################################
+                  ##                                              ##
+                  ##         C A L I B R E    S Y S T E M         ##
+                  ##                                              ##
+                  ##             L V S   R E P O R T              ##
+                  ##                                              ##
+                  ##################################################
+
+
+
+REPORT FILE NAME:         SRAM\_CELL.lvs.report
+LAYOUT NAME:              /home/am8482/freepdk45\_working\_directory/SRAM\_CELL.sp ('SRAM\_CELL')
+SOURCE NAME:              /home/am8482/freepdk45\_working\_directory/SRAM\_CELL.src.net ('SRAM\_CELL')
+RULE FILE:                /home/am8482/freepdk45\_working\_directory/\_calibreLVS.rul\_
+RULE FILE TITLE:          LVS Rule File for FreePDK45
+CREATION TIME:            Mon Dec 10 00:15:35 2018
+CURRENT DIRECTORY:        /home/am8482/freepdk45\_working\_directory
+USER NAME:                am8482
+CALIBRE VERSION:          v2016.3\_19.12    Thu Aug 4 11:48:27 PDT 2016
+
+
+
+                               OVERALL COMPARISON RESULTS
+
+
+
+                         #       ###################       _   _   
+                        #        #                 #       *   *   
+                   #   #         #     CORRECT     #         |     
+                    # #          #                 #       \___/  
+                     #           ###################               
+
+
+
+
+**********************************************************************************************
+                                      CELL  SUMMARY
+**********************************************************************************************
+
+  Result         Layout                        Source
+  -----------    -----------                   --------------
+  CORRECT        SRAM\_CELL                     SRAM\_CELL
+
+
+
+**********************************************************************************************
+                                      LVS PARAMETERS
+**********************************************************************************************
+
+
+o LVS Setup:
+
+   LVS COMPONENT TYPE PROPERTY            element
+   LVS COMPONENT SUBTYPE PROPERTY         model
+   // LVS PIN NAME PROPERTY
+   LVS POWER NAME                         "VDD"
+   LVS GROUND NAME                        "VSS" "GROUND"
+   LVS CELL SUPPLY                        NO
+   LVS RECOGNIZE GATES                    ALL
+   LVS IGNORE PORTS                       NO
+   LVS CHECK PORT NAMES                   NO
+   LVS IGNORE TRIVIAL NAMED PORTS         NO
+   LVS BUILTIN DEVICE PIN SWAP            YES
+   LVS ALL CAPACITOR PINS SWAPPABLE       NO
+   LVS DISCARD PINS BY DEVICE             NO
+   LVS SOFT SUBSTRATE PINS                NO
+   LVS INJECT LOGIC                       YES
+   LVS EXPAND UNBALANCED CELLS            YES
+   LVS FLATTEN INSIDE CELL                NO
+   LVS EXPAND SEED PROMOTIONS             NO
+   LVS PRESERVE PARAMETERIZED CELLS       NO
+   LVS GLOBALS ARE PORTS                  YES
+   LVS REVERSE WL                         NO
+   LVS SPICE PREFER PINS                  NO
+   LVS SPICE SLASH IS SPACE               YES
+   LVS SPICE ALLOW FLOATING PINS          YES
+   // LVS SPICE ALLOW INLINE PARAMETERS     
+   LVS SPICE ALLOW UNQUOTED STRINGS       NO
+   LVS SPICE CONDITIONAL LDD              NO
+   LVS SPICE CULL PRIMITIVE SUBCIRCUITS   NO
+   LVS SPICE IMPLIED MOS AREA             NO
+   // LVS SPICE MULTIPLIER NAME
+   LVS SPICE OVERRIDE GLOBALS             NO
+   LVS SPICE REDEFINE PARAM               NO
+   LVS SPICE REPLICATE DEVICES            NO
+   LVS SPICE SCALE X PARAMETERS           NO
+   LVS SPICE STRICT WL                    NO
+   // LVS SPICE OPTION
+   LVS STRICT SUBTYPES                    NO
+   LVS EXACT SUBTYPES                     NO
+   LAYOUT CASE                            NO
+   SOURCE CASE                            NO
+   LVS COMPARE CASE                       NO
+   LVS DOWNCASE DEVICE                    NO
+   LVS REPORT MAXIMUM                     50
+   LVS PROPERTY RESOLUTION MAXIMUM        32
+   // LVS SIGNATURE MAXIMUM
+   // LVS FILTER UNUSED OPTION
+   // LVS REPORT OPTION
+   LVS REPORT UNITS                       YES
+   // LVS NON USER NAME PORT
+   // LVS NON USER NAME NET
+   // LVS NON USER NAME INSTANCE
+   // LVS IGNORE DEVICE PIN
+
+   // Reduction
+
+   LVS REDUCE SERIES MOS                  YES
+   LVS REDUCE PARALLEL MOS                YES
+   LVS REDUCE SEMI SERIES MOS             YES
+   LVS REDUCE SPLIT GATES                 YES
+   LVS REDUCE PARALLEL BIPOLAR            YES
+   LVS REDUCE SERIES CAPACITORS           YES
+   LVS REDUCE PARALLEL CAPACITORS         YES
+   LVS REDUCE SERIES RESISTORS            YES
+   LVS REDUCE PARALLEL RESISTORS          YES
+   LVS REDUCE PARALLEL DIODES             YES
+   LVS REDUCTION PRIORITY                 PARALLEL
+   
+   LVS SHORT EQUIVALENT NODES             NO
+
+   // Trace Property
+
+   TRACE PROPERTY  mn(nmos\_vtl)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos\_vtl)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos\_vtl)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos\_vtl)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos\_vth)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos\_vth)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos\_vth)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos\_vth)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos\_vtg)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos\_vtg)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos\_vtg)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos\_vtg)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos\_thkox)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos\_thkox)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos\_thkox)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos\_thkox)  w w 4e-09 ABSOLUTE
+
+
+
+                   CELL COMPARISON RESULTS ( TOP LEVEL )
+
+
+
+                         #       ###################       _   _   
+                        #        #                 #       *   *   
+                   #   #         #     CORRECT     #         |     
+                    # #          #                 #       \___/  
+                     #           ###################               
+
+
+
+LAYOUT CELL NAME:         SRAM\_CELL
+SOURCE CELL NAME:         SRAM\_CELL
+
+--------------------------------------------------------------------------------------------------------------
+
+INITIAL NUMBERS OF OBJECTS
+--------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:              5         5
+
+ Nets:               7         7
+
+ Instances:          4         4         MN (4 pins)
+                     2         2         MP (4 pins)
+                ------    ------
+ Total Inst:         6         6
+
+
+NUMBERS OF OBJECTS AFTER TRANSFORMATION
+---------------------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:              5         5
+
+ Nets:               5         5
+
+ Instances:          1         1         \_bitv (5 pins)
+                ------    ------
+ Total Inst:         1         1
+
+
+
+**********************************************************************************************
+                               INFORMATION AND WARNINGS
+**********************************************************************************************
+
+
+                  Matched    Matched    Unmatched    Unmatched    Component
+                   Layout     Source       Layout       Source    Type
+                  -------    -------    ---------    ---------    ---------
+   Ports:               5          5            0            0
+
+   Nets:                5          5            0            0
+
+   Instances:           1          1            0            0    \_bitv
+                  -------    -------    ---------    ---------
+   Total Inst:          1          1            0            0
+
+
+o Layout Names That Are Missing In The Source:
+
+   Ports:        GND! VDD!
+   Nets:         GND! VDD!
+
+
+o Initial Correspondence Points:
+
+   Ports:        WL BL\_BAR BL
+
+
+**********************************************************************************************
+                                         SUMMARY
+**********************************************************************************************
+
+Total CPU Time:      0 sec
+Total Elapsed Time:  0 sec
